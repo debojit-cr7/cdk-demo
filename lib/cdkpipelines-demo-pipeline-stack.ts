@@ -26,7 +26,7 @@ import { ShellScriptAction } from '@aws-cdk/pipelines';
         output: sourceArtifact,
         oauthToken: SecretValue.secretsManager('github-token'),
         owner: 'debojit-cr7',
-        repo: 'cdk-pipelines-demo-deploy',
+        repo: 'cdk-demo',
         branch: 'main'
       }),
 
